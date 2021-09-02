@@ -3,8 +3,8 @@ body {
     font-family:'Trebuchet MS';
 }
 
-/* --------CODE KHUSUS HEADER---------- */
-.heading-layout{
+/*---------------- UNTUK BAGIAN KIRI HEADER LOGO ------------------ */
+.heading{
     background-color: #e6e7d4ad;
     height: 70px;
     width: 100%;
@@ -24,16 +24,51 @@ body {
     margin: 15px;
 }
 
-.header-right {
+/*---------------- UNTUK BAGIAN TENGAH HEADER------------------- */
+.header-mid {
+    float: left;
+}
+
+.header-mid li{
     float: right;
+    list-style:none;
+    padding-top: 10px;
+}
+.header-mid a {
+    padding: 26px 20px;
+    text-decoration: none;
+    color: black;
+}
+.header-mid a:hover {
+    background-color: #bbbbbbad;
+    transition: all 0.5s;   
+    color: white;
+}
+/*---------------- UNTUK BAGIAN KANAN HEADER------------------- */
+
+.header-right{
+    float: right;
+    padding: 10px 10px;
+    
 }
 
 
 .header-right li{
     float: left;
-    padding: 10px 10px;
     list-style: none;    
     
+}
+
+.header-right a {
+    padding: 26px 14px;
+    text-decoration: none;
+    color: black;
+    
+}
+.header-right a:hover {
+    background-color: #bbbbbbad;
+    transition: all 0.5s;   
+    color: white;
 }
 
 /* -- INI BAGIAN FOOTER--*/
