@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .footer
 {
     background-color: darkgrey;
@@ -21,3 +22,43 @@
     height: 30px;
     margin-right: 5px;
 }
+=======
+body {
+    margin: 0;
+    font-family:'Trebuchet MS';
+}
+
+/* --------CODE KHUSUS HEADER---------- */
+.heading-layout{
+    background-color: #e6e7d4ad;
+    height: 70px;
+    width: 100%;
+}
+
+.container {
+    width: 1270px;
+    margin: 0 auto;
+}
+
+.header-left {
+    float : left;
+    
+}
+
+.header-left h1{
+    margin: 15px;
+}
+
+.header-right {
+    float: right;
+}
+
+
+.header-right li{
+    float: left;
+    padding: 10px 10px;
+    list-style: none;    
+    
+}
+
+>>>>>>> 279649b82f7053e50331d7046f5a0257d83cafec
