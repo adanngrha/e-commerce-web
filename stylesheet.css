@@ -37,8 +37,8 @@ body {
 }
 
 /* -- INI BAGIAN FOOTER--*/
-.footer-title {
-    font-size: 25px;
+.footer {
+    padding: 0px 20px;
 }
 
 .footer-list {
