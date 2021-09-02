@@ -1,1 +1,23 @@
-
+.footer
+{
+    background-color: darkgrey;
+}
+.footer-title
+{
+    font-size: 25px;
+}
+.footer-list
+{
+    list-style: none;
+}
+.sosial-media-logo
+{
+    list-style: none;
+    float: left;
+}
+.sosial-media-logo img
+{
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
