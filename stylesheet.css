@@ -30,7 +30,7 @@ body {
 }
 
 .header-mid li{
-    float: right;
+    float: left;
     list-style:none;
     padding-top: 10px;
 }
@@ -41,7 +41,7 @@ body {
 }
 .header-mid a:hover {
     background-color: #bbbbbbad;
-    transition: all 0.5s;   
+    transition: all 1.5s;   
     color: white;
 }
 /*---------------- UNTUK BAGIAN KANAN HEADER------------------- */
@@ -67,9 +67,58 @@ body {
 }
 .header-right a:hover {
     background-color: #bbbbbbad;
-    transition: all 0.5s;   
+    transition: all 1.5s;   
     color: white;
 }
+
+/* ----------- OLSHOP GAMBAR ------------ */
+.txt-web{
+    float: right;
+    width: 25%;
+    text-align: center;
+}
+.txt-web p{
+    padding-top: 140px;
+    padding-right: 120px;
+    position: absolute;
+    font-size: 22px;
+}
+.webshop-content img{
+    background-size: cover;
+    
+}
+
+.shop-link {
+    position: absolute;
+    color: rgb(245, 245, 245);
+    top: 90%;
+    left: 26%;
+}
+
+
+.shop-link a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-color: #564dd4;
+    font-size: 20px;
+    padding: 12px 24px;
+    border-radius: 7px;
+    box-shadow: 0px 7px rgb(59, 53, 53);
+    cursor: pointer;
+
+}
+
+.shop-link a:hover{
+    background-color: #4037be;
+}
+
+.shop-link a:active{
+    box-shadow: none;
+    top: 7px;
+    position: relative;
+
+}
+
 
 /*------Main Section--------*/
 
