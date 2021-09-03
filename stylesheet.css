@@ -170,10 +170,16 @@ body {
 /* -- INI BAGIAN FOOTER--*/
 .footer {
     padding: 0px 20px;
+    margin: 10px 0px;
 }
 
 .footer-list {
     list-style: none;
+}
+.flex-row {
+    border-top:1px solid #000000;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .sosial-media-logo {
@@ -187,5 +193,5 @@ body {
     margin-right: 5px;
 }
 .sosial-media-logo img:hover {
-    
+ 
 }
