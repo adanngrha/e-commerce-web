@@ -159,7 +159,9 @@ body {
 
 .content-img p{
     font-size: 15px;
-    
+    position: ab;
+    float: left;
+    display: inline-block;
 }
 
 .img-content img{
