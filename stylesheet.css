@@ -206,7 +206,7 @@ body {
     box-shadow: 0px 7px black;
   }
 
-  .contact-submit:active {
+  .join-submit:active {
     position: relative;
     top: 7px;
     box-shadow: none;
