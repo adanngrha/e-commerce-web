@@ -93,23 +93,24 @@ body {
     color: rgb(245, 245, 245);
     top: 90%;
     left: 26%;
+    
+
 }
 
 
 .shop-link a{
-    color: rgb(255, 255, 255);
+    color: rgb(17, 17, 17);
     text-decoration: none;
-    background-color: #564dd4;
+    background-color: #87C2F7;
     font-size: 20px;
-    padding: 12px 24px;
+    padding: 12px 40px;
     border-radius: 7px;
     box-shadow: 0px 7px rgb(59, 53, 53);
     cursor: pointer;
-
 }
 
 .shop-link a:hover{
-    background-color: #4037be;
+    background-color: #5ea2dd;
 }
 
 .shop-link a:active{
@@ -124,6 +125,12 @@ body {
 
 .content-item{
     padding: 50px 0;
+}
+
+.narrival{
+    background-size: cover;
+    width: 100%;
+    height: 320px;
 }
 
 .container h2{
@@ -147,16 +154,19 @@ body {
 
 .content-img{
     display: block;
+    
 }
 
 .content-img p{
     font-size: 15px;
-    text-align: left;
+    position: ab;
 }
 
 .img-content img{
     float: left;
     padding: 0 50px;
+    
+    
 }
 
 .img-content img:hover{
@@ -171,6 +181,7 @@ body {
 .footer {
     padding: 0px 20px;
     margin: 10px 0px;
+    
 }
 
 .footer-list {
@@ -203,7 +214,7 @@ body {
     /* Ubah property cursor ke pointer */
     cursor: pointer;
     /* Ubah property box-shadow */
-    box-shadow: 0px 7px black;
+    box-shadow: 0px 7px rgb(211, 44, 44);
   }
 
   .join-submit:active {
@@ -215,20 +226,35 @@ body {
 .contact-submit {
     background-color: #e6e7d4ad;
     color: black;
-    padding: 15px 40px;
+    padding: 10px 40px;
     /* Ubah property cursor ke pointer */
     cursor: pointer;
     /* Ubah property box-shadow */
     box-shadow: 0px 7px black;
+    border-radius: 7px;
   }
+
+  .contact-submit:hover{
+      background-color: #c5c5c5ad;;
+  }
+
   .contact-submit:active {
     position: relative;
     top: 7px;
     box-shadow: none;
   }
+
+  .contact-form input{
+    padding: 8px 42px;
+
+  }
+
+  .contact-form textarea{
+    padding: 10px 50px;
+  }
   .section-title {
-      padding-bottom: 8px;
-      border-bottom: 1px solid #e6e7d4ad;
+      padding-bottom: 10px;
+      border-bottom: 4px solid #e6e7d4ad;
       font-size: 16px;
   }
   .contact-form p {
