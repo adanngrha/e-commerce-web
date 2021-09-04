@@ -213,4 +213,8 @@ body {
   .section-title {
       padding-bottom: 8px;
       border-bottom: 1px solid #e6e7d4ad;
+      font-size: 16px;
+  }
+  .contact-form p {
+      font-size: 16px;
   }
