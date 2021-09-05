@@ -163,10 +163,10 @@ body {
 
 .img-content img{
     float: left;
-    padding: 25px 50px;
+    margin: 25px 50px;
     width: 25%;
     border: 1px solid black;
-    border-radius: 5px;
+    border-radius: 10px;
     display: inline-block;
 }
 
@@ -177,7 +177,7 @@ body {
 .p-shop{
     text-align: center;
     display: inline;
-    padding-left: 250px;
+    margin-left: 250px;
 }
 
 /*--------------------------*/
