@@ -3,6 +3,11 @@ body {
     font-family:'Trebuchet MS';
 }
 
+.small-container{
+    width: 1270px;
+    margin: 0 auto;
+}
+
 /*---------------- UNTUK BAGIAN KIRI HEADER LOGO ------------------ */
 .heading{
     background-color: #e6e7d4ad;
@@ -133,46 +138,47 @@ body {
     height: 320px;
 }
 
-.container h2{
+.small-container h2{
     text-align: center;
     border-bottom: 2px solid #e6e7d4ad;
     padding-bottom: 15px;
 }
 
-.container a{
+.small-container a{
     text-decoration: none;
     color: black;
     padding-left: 5px;
 }
 
-.container a:hover{
+.small-container a:hover{
     border: 1px solid black;
     background-color: black;
     color: white;
     padding: 0 5px;
 }
 
-.content-img{
-    display: block;
-    
-}
-
 .content-img p{
     font-size: 15px;
-    position: ab;
 }
 
 .img-content img{
     float: left;
-    padding: 0 50px;
-    
-    
+    padding: 25px 50px;
+    width: 25%;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: inline-block;
 }
 
 .img-content img:hover{
     transform: translateY(-5px);
 }
 
+.p-shop{
+    text-align: center;
+    display: inline;
+    padding-left: 250px;
+}
 
 /*--------------------------*/
 
