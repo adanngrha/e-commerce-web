@@ -99,7 +99,7 @@ body {
 }
 
 .shop-btn{
-    padding: 12px 24px;
+    padding: 12px 46px;
     color: black;
     display: inline-block;
     opacity: 1;
@@ -107,9 +107,20 @@ body {
     background-color: #87C2F7;
     cursor: pointer;
     font-size: 20px;
+    text-decoration: none;
+}
+
+.shop-btn:hover {
+    background-color: #5ea2dd;
+    transition: all 1.5s;
+    color: white;
 }
 
 /*------Main Section--------*/
+
+.main-section {
+    height: 600px;
+}
 
 .content-item{
     padding: 50px 0;
@@ -242,7 +253,12 @@ body {
     
   }
 
-.form {
+.contact-form {
+    margin-left: 100px;
+    padding-bottom: 90px;
+}
+
+  .form {
     border: 1px solid #e6e7d4ad;
     border-radius: 6px;
     width: 400px;
