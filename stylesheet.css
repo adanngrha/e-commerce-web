@@ -79,56 +79,35 @@ body {
 }
 
 /* ----------- OLSHOP GAMBAR ------------ */
-.txt-web{
-    float: right;
-    width: 25%;
-    text-align: center;
-}
-.txt-web p{
-    padding-top: 140px;
-    padding-right: 120px;
-    position: absolute;
-    font-size: 22px;
-}
-.webshop-content img{
+.main{
+    padding: 400px 0px 400px 0px;
     background-size: cover;
-    
+    color: black;
+    text-align: center;
+    opacity: 0.9;
 }
 
-.shop-link {
-    position: absolute;
-    color: rgb(245, 245, 245);
-    top: 90%;
-    left: 26%;
-    
-
+.shops{
+    height: 500px;
+    padding-bottom: 80px;
 }
 
+.heading-web h1{
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 100px;
+}
 
-.shop-link a{
-    color: rgb(17, 17, 17);
-    text-decoration: none;
+.shop-btn{
+    padding: 12px 24px;
+    color: black;
+    display: inline-block;
+    opacity: 1;
+    border-radius: 4px;
     background-color: #87C2F7;
-    font-size: 20px;
-    padding: 12px 40px;
-    border-radius: 7px;
-    box-shadow: 0px 7px rgb(71, 69, 69);
     cursor: pointer;
+    font-size: 20px;
 }
-
-.shop-link a:hover{
-    background-color: #5ea2dd;
-    color: #f3f3f3f3;
-    transition: all 1.5s;
-}
-
-.shop-link a:active{
-    box-shadow: none;
-    top: 7px;
-    position: relative;
-     
-}
-
 
 /*------Main Section--------*/
 
@@ -182,6 +161,7 @@ body {
     text-align: center;
     display: inline;
     margin-left: 250px;
+    color: black;
 }
 
 /*--------------------------*/
@@ -191,6 +171,7 @@ body {
 .footer {
     padding: 0px 20px;
     margin: 10px 0px;
+    background-color: #e6e7d4ad;
 }
 
 
