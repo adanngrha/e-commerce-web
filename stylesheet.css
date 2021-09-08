@@ -136,8 +136,6 @@ body {
     padding: 0 5px;
 }
 
-
-
 .img-content img{
     float: left;
     margin: 25px 50px;
@@ -170,21 +168,25 @@ body {
     background-color: #e6e7d4ad;
 }
 
-
 .ecommerce h2 {
         margin: 15px;
         color: #5ea2dd;
         text-shadow: 3px 2px rgb(71, 69, 69);
+        padding-top: 20px;
+        padding-bottom: 20px;
 }
+
 .footer-list {
     list-style: none;
 }
+
 .flex-row {
     padding-top: 10px;
     padding-bottom: 10px;
     display: flex;
     flex-wrap: wrap;
 }
+
 .col-lg-4 ul {
     float: left;
 }
@@ -196,6 +198,7 @@ body {
 .col-sm-3 {
     max-width: 33.3%;
 }
+
 .col, [class*=col-] {
     box-sizing: border-box;
     position: relative;
@@ -203,8 +206,19 @@ body {
     min-height: 1px;
 }
 
+.col-lg-4 a {
+    color:black;
+    text-decoration: none;
+}
+
+.col-lg-4 a:hover {
+    background-color:black;
+    color: white;
+}
+
 .teks{
     text-align:justify;
+    
 }
 .sosial-media-logo {
     list-style: none;
@@ -215,8 +229,11 @@ body {
 .sosial-media-logo img {
     width: 30px;
     height: 30px;
-    margin-right: 5px;
+    margin-right: 20px;
     align-self: center;
+}
+.sosial-media-logo img:hover {
+    padding-bottom: 5px;
 }
 
 .join-submit {
