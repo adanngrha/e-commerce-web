@@ -1,5 +1,86 @@
-@media (max-width 1000px){
-    .heading {
+
+  
+  
+  @media (max-width: 1000px) {
+    .header-left{
+        font-size: 14px;
+        margin: 0 auto;
         
     }
-}
+    .header-mid{
+        font-size: 12px;
+        padding-bottom: 10px;
+    }
+
+    .header-right{
+        font-size: 12px;
+        padding-right: 70px;
+        margin: 0 auto;
+    }
+
+    .main {
+        padding: 120px;
+    }
+
+    .content-img {
+        width: 500px;
+    }
+    .heading-web h1{
+        font-size: 32px;
+        letter-spacing: 3px;
+        
+    }
+    
+    .shop-btn {
+        margin-right: 100px;
+        margin-bottom: 20px;
+    }
+
+    .small-container {
+        width: 80%;
+    }
+  } 
+
+
+  @media (max-width: 670px) {
+    
+    .header-left li{
+        font-size: 14px;
+        
+    }
+    .header-left a{
+        display: inline-block;
+        
+    }
+    .header-mid {
+        width: 70%;
+        
+    }
+
+    .header-mid a{
+        font-size: 14px;
+        
+    }
+    
+    
+    .webshop-content img {
+        width: 100%; 
+       }
+
+    .shop-link{
+        width: 28%;
+        top: 70%;
+        
+    }
+
+    .shop-link a{
+        font-size: 16px;
+        
+    }
+
+    .txt-web p{
+        font-size: 14px;
+        padding-left: 27%;
+        padding-top: 28px;
+    }
+}   
