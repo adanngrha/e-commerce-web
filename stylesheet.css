@@ -115,6 +115,7 @@ body {
 
 .content-item{
     padding: 50px 0;
+    
 }
 
 .small-container h2{
@@ -135,6 +136,7 @@ body {
     color: white;
     padding: 0 5px;
 }
+
 
 .img-content img{
     float: left;
@@ -224,25 +226,7 @@ body {
     align-self: center;
 }
 
-.join-submit {
-    background-color: #e6e7d4ad;
-    color: black;
-    padding: 15px 40px;
-    /* Ubah property cursor ke pointer */
-    cursor: pointer;
-    /* Ubah property box-shadow */
-    box-shadow: 0px 7px rgb(211, 44, 44);
-  }
-
-  .join-submit:active {
-    position: relative;
-    top: 7px;
-    box-shadow: none;
-    
-  }
-
 .contact-form {
-    margin-left: 100px;
     padding-bottom: 90px;
 }
 

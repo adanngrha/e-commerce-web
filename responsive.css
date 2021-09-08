@@ -3,28 +3,34 @@
   
   @media (max-width: 1000px) {
     .header-left{
-        font-size: 14px;
+        font-size: 16px;
         margin: 0 auto;
         
     }
     .header-mid{
-        font-size: 12px;
+        font-size: 14px;
         padding-bottom: 10px;
     }
 
     .header-right{
-        font-size: 12px;
-        padding-right: 70px;
+        font-size: 14px;
+        padding-right: 4px;
         margin: 0 auto;
     }
 
     .main {
         padding: 120px;
     }
+     
+    .content-img {
+        width: 400px;
+           
+    }
 
     .content-img {
-        width: 500px;
+        float: left;
     }
+
     .heading-web h1{
         font-size: 32px;
         letter-spacing: 3px;
@@ -39,6 +45,28 @@
     .small-container {
         width: 80%;
     }
+
+    .form {
+        margin-left: 25%;   
+        transform: none;
+       }
+
+    .ecommerce h2 {
+        font-size: 30px;
+    }
+
+    .flex-row {
+        padding: unset;
+        display: flex;
+    }
+
+    .sosial-media-logo img {
+        margin-right: unset;
+        
+    }
+
+    
+    
   } 
 
 
