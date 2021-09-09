@@ -21,14 +21,9 @@
     .main {
         padding: 120px;
     }
-     
-    .content-img {
-        width: 400px;
-           
-    }
 
-    .content-img {
-        float: left;
+    .content-img img{
+        width: 100%;
     }
 
     .heading-web h1{
