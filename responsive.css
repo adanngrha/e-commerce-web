@@ -65,7 +65,7 @@
         
     }
 
-    
+
     
   } 
 
@@ -89,6 +89,12 @@
         font-size: 14px;
         
     }
+
+
+    .img-content img{
+        width: 100%;
+        margin-bottom: 10px;
+    }
     
     
     .webshop-content img {
@@ -96,7 +102,8 @@
         height: 100%;
        }
 
-       .img-content img:hover{
+
+    .img-content img:hover{
         transform: translateY(-5px);
     }
 
@@ -115,5 +122,10 @@
         font-size: 14px;
         padding-left: 27%;
         padding-top: 28px;
+    }
+
+    .contact-form{
+        margin-right: 500px;
+        margin-top: 300px;
     }
 }   
