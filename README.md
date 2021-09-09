@@ -6,3 +6,5 @@
 * Ardana Aldhizuma Nugraha
 * Muhammad Vallen Firdaus
 * izmil musyaffa rachman
+* Amalia Lestari
+* Nuril Khatami
