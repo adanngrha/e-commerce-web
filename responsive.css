@@ -24,6 +24,7 @@
 
     .content-img img{
         width: 75%;
+        
     }
 
     .heading-web h1{
@@ -38,9 +39,11 @@
     }
 
     .small-container {
-        width: 80%;
+        width: 60%;
+        botto: 90px;
     }
 
+    
     .form {
         margin-left: 25%;   
         transform: none;
@@ -50,10 +53,7 @@
         font-size: 30px;
     }
 
-    .flex-row {
-        padding: unset;
-        display: flex;
-    }
+
 
     .sosial-media-logo img {
         margin-right: unset;
