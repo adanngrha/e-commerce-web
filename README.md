@@ -1,2 +1,7 @@
-# e-commerce-web
-Project Web KMMI
+# Project Web KMMI di Universitas Bakrie x Progate
+
+# Kelompok A06
+
+## Nama Anggota Kelompok
+* Ardana Aldhizuma Nugraha
+* 
