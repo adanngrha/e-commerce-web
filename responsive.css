@@ -23,7 +23,7 @@
     }
 
     .content-img img{
-        width: 100%;
+        width: 75%;
     }
 
     .heading-web h1{
@@ -60,7 +60,10 @@
         
     }
 
-
+    .contact-form{
+        margin-right: 500px;
+        margin-top: 300px;
+    }
     
   } 
 
