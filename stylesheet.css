@@ -7,11 +7,6 @@ body {
     box-sizing: border-box
   }
 
-.small-container{
-    width: 1270px;
-    margin: 0 auto;
-}
-
 /*---------------- UNTUK BAGIAN KIRI HEADER LOGO ------------------ */
 .heading{
     background-color: #e6e7d4ad;
@@ -108,6 +103,11 @@ body {
 }
 
 /*------Main Section--------*/
+
+.small-container{
+    width: 1270px;
+    margin: 0 auto;
+}
 
 .main-section {
     height: 600px;
